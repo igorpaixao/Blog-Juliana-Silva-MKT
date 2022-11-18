@@ -23,6 +23,7 @@ a:link, a:visited {
 #menu-principal {
     width: 70%;
     margin: auto;
+    margin-top: 10px;
 }
 
 #menu-principal-logo img {
