@@ -107,13 +107,14 @@ a:link, a:visited {
     width: 150px;
     height: 100px;
     float: left;
-    margin: 15px 10px;
+    margin: 12px 10px;
     border-radius: 10px;
 }
 
 #container-principal-artigos h2 {
     color: #3d1a39;
     font-size: 1.4em;
+    margin-top: 10px;
 }
 
 #container-principal-artigos .artigo {
