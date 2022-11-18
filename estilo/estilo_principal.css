@@ -1,0 +1,79 @@
+/*FORMATAÇÕES GENÉRICAS*/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #3d1a39;
+}
+
+#clear {
+    clear: both;
+}
+
+/*FORMATAÇÕES MENU PRINCIPAL*/
+
+#menu-principal {
+    border: 1px solid red;
+    width: 70%;
+    margin: auto;
+}
+
+#menu-principal-logo img {
+    width: 220px;
+    float: left;
+}
+
+/*FORMATAÇÕES NAVECAÇÃO*/
+
+#menu-principal-navegacao ul {
+    float: left;
+}
+
+#menu-principal-navegacao ul li {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#menu-principal-navegacao ul li a:link, #menu-principal-navegacao ul li a:visited {
+    display: block;
+    padding: 10px 15px;
+    color: #3d1a39;
+    border-radius: 10px;
+}
+
+#menu-principal-navegacao ul li a:hover {
+    text-decoration: underline;
+    color: #FF007F;
+}
+
+/*FORMATAÇÕES MEMBROS*/
+
+#menu-principal-membros ul {
+    float: right;
+}
+
+#menu-principal-membros ul li {
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+#menu-principal-membros ul li a:link, #menu-principal-membros ul li a:visited {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #3d1a39;
+    color: #fff;
+}
+
+#menu-principal-membros ul li a:hover {
+    text-decoration: underline;
+    color: #000;
+    background-color: #ff59acb2;
+}
