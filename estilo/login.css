@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #EBB294 url('/imagens/pagina-login/fundo2.jpg') no-repeat top left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#area-principal-login {
+    width: 600px;
+    height: 400px;
+    margin: 9% auto;
+    border-radius: 10px;
+    background-color: #EFEFEF;
+    box-shadow: 0px 0px 5px 2px gray;
+}
+
+#area-principal-login img {
+    width: 100px;
+    margin: 10px 250px;
+    box-sizing: border-box;
+}
+
+#area-principal-login h3 {
+    text-align: center;
+    margin-top: 0px;
+    text-transform: uppercase;
+    color: rgb(137, 43, 226);
+}
+
+#area-principal-login input[type="text"], #area-principal-login input[type="password"] {
+    display: block;
+    width: 60%;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    color: gray;
+}
+
+#area-principal-login input[type="submit"] {
+    margin-left: 181px;
+    width: 40%;
+    height: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    background-color: rgba(137, 43, 226, 0.767);
+    border: none;
+    border-radius: 5px;
+}
+
+#area-principal-login input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+#area-principal-login input[type="submit"]:active {
+    opacity: 0.8;
+}
