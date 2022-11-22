@@ -51,7 +51,21 @@ body {
     border-radius: 5px;
 }
 
+@keyframes animacao-botao {
+    from {
+        background-color: rgba(137, 43, 226, 0.767);
+    }
+    to {
+        background-color: rgb(137, 43, 226);
+        color: #fff;
+    }
+}
+
 #area-principal-login input[type="submit"]:hover {
+    animation-name: animacao-botao;
+    animation-duration: 1s;
+    background-color: rgb(137, 43, 226);
+    color: #fff;
     cursor: pointer;
 }
 

@@ -49,7 +49,19 @@ a:link, a:visited {
     border-radius: 10px;
 }
 
+@keyframes animacao-navegacao {
+    from {
+        color: #3d1a39;
+    }
+    to {
+        text-decoration: underline;
+        color: #FF007F;
+    }
+}
+
 #menu-principal-navegacao ul li a:hover {
+    animation-name: animacao-navegacao;
+    animation-duration: 1s;
     text-decoration: underline;
     color: #FF007F;
 }
@@ -72,7 +84,21 @@ a:link, a:visited {
     color: #fff;
 }
 
+@keyframes animacao-color {
+    from {
+        background-color: #3d1a39;
+        color: #fff;
+    }
+    to {
+        text-decoration: underline;
+        color: #000;
+        background-color: #ff59acb2;
+    }
+}
+
 #menu-principal-membros ul li a:hover {
+    animation-name: animacao-color;
+    animation-duration: 1s;
     text-decoration: underline;
     color: #000;
     background-color: #ff59acb2;
