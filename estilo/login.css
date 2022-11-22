@@ -27,7 +27,7 @@ body {
     color: rgb(137, 43, 226);
 }
 
-#area-principal-login input[type="text"], #area-principal-login input[type="password"] {
+#area-principal-login input[type="email"], #area-principal-login input[type="password"] {
     display: block;
     width: 60%;
     height: 50px;

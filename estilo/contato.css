@@ -1,0 +1,49 @@
+#container-principal-contato {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#container-principal-contato label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+#container-principal-contato input {
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 30px;
+}
+
+#container-principal-contato input[type="submit"] {
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3d1a39;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+#container-principal-contato input[type="submit"]:hover {
+    background-color: #661d5e;
+    box-shadow: 0px 0px 3px 3px rgb(163, 163, 163);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#container-principal-contato input[type="submit"]:active {
+    opacity: 0.5;
+}
+
+#container-principal-contato textarea {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    width: 500px;
+    height: 100px;
+}

@@ -1,5 +1,5 @@
 /*FORMATAÇÕES GENÉRICAS*/
-body {
+body, html {
     padding: 0;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,7 +46,11 @@ a:link, a:visited {
     display: block;
     padding: 10px 15px;
     color: #3d1a39;
-    border-radius: 10px;
+}
+
+#index .index, #artigos .artigos, #treinamento .treinamento, #sobre .sobre, #contato .contato {
+    border-bottom: 2px solid #FF007F;
+    color: #FF007F;
 }
 
 @keyframes animacao-navegacao {
@@ -54,7 +58,7 @@ a:link, a:visited {
         color: #3d1a39;
     }
     to {
-        text-decoration: underline;
+        border-bottom: 2px solid #FF007F;
         color: #FF007F;
     }
 }
@@ -62,7 +66,7 @@ a:link, a:visited {
 #menu-principal-navegacao ul li a:hover {
     animation-name: animacao-navegacao;
     animation-duration: 1s;
-    text-decoration: underline;
+    border-bottom: 2px solid #FF007F;
     color: #FF007F;
 }
 
@@ -84,24 +88,11 @@ a:link, a:visited {
     color: #fff;
 }
 
-@keyframes animacao-color {
-    from {
-        background-color: #3d1a39;
-        color: #fff;
-    }
-    to {
-        text-decoration: underline;
-        color: #000;
-        background-color: #ff59acb2;
-    }
-}
-
 #menu-principal-membros ul li a:hover {
-    animation-name: animacao-color;
-    animation-duration: 1s;
     text-decoration: underline;
-    color: #000;
-    background-color: #ff59acb2;
+    background-color: #FF007F;
+    box-shadow: 0px 0px 3px 1px rgb(87, 87, 87);
+    transition: 0.5s;
 }
 
 /*FORMATAÇÕES CONTAINER PRINCIPAL*/
